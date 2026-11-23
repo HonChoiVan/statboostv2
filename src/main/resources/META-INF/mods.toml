@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="statboost"
+version="1.0.0"
+displayName="Stat Boost"
+description='''Bảng chỉ số: nâng Sức mạnh, Máu, Tốc độ và Sức mạnh phép thuật (Iron's Spellbooks / To Magic and Extras). Mở bằng phím K.'''
+
+[[dependencies.statboost]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.statboost]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
